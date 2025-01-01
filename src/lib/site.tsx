@@ -63,7 +63,7 @@ export const site = {
             },
             {
                 label: "Languages",
-                tags: ["Enlish", "Hindi", "Gujarati"],
+                tags: ["English", "Hindi", "Gujarati"],
             },
         ],
     },
