@@ -1,7 +1,10 @@
+import Link from "next/link";
+
 import { Header } from "@/components/header";
 import { StaticNoise } from "@/components/static-noise";
 import { Separator } from "@/components/ui/separator";
-import { Hero } from "@/features/frontend/components/hero";
+
+import { Hero } from "./hero";
 
 export default function PortfolioLayout({
     children,
@@ -21,7 +24,14 @@ export default function PortfolioLayout({
                         id="hero"
                         className="relative size-full max-w-full overflow-hidden lg:h-full lg:min-w-[480px] lg:max-w-xl lg:overflow-y-scroll"
                     >
-                        <Hero />
+                        <div className="flex size-full flex-col gap-6">
+                            <Hero />
+                            <Separator />
+                            <div className="max-w-[80%] text-sm text-muted-foreground">
+                                I'm always eager to collaborate on meaningful
+                                projects.
+                            </div>
+                        </div>
                     </div>
                     <div
                         id="main"
