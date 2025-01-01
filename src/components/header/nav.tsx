@@ -9,9 +9,9 @@ import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 
 const dataButtons = [
-    { label: "Projects", href: "/projects" },
+    { label: "Trainings", href: "/trainings" },
     { label: "Experience", href: "/experience" },
-    { label: "Timeline", href: "/timeline" },
+    { label: "Archive", href: "/archive" },
     { label: "Blog", href: "/blogs" },
 ];
 export function Nav() {
