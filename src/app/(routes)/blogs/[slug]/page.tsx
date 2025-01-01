@@ -2,7 +2,6 @@ import { ArrowLeftIcon } from "lucide-react";
 
 import Link from "next/link";
 
-import "@code-hike/mdx/dist/index.css";
 import { allBlogs } from "content-collections";
 
 import { MDX } from "@/components/mdx";
