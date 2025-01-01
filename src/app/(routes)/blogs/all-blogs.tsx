@@ -19,6 +19,16 @@ export const AllBlogs = () => {
 
     const blogs = allBlogs.sort((a, b) => b.date.getTime() - a.date.getTime());
 
+    if (blogs.length === 0) {
+        return (
+            <div className="flex h-full w-full items-center justify-center text-center text-foreground">
+                <p className="text-lg font-semibold">
+                    Blogs are coming soon...
+                </p>
+            </div>
+        );
+    }
+
     return (
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 2xl:grid-cols-3">
             {blogs.map((blog) => (

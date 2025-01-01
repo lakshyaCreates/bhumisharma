@@ -11,7 +11,7 @@ import { cn } from "@/lib/utils";
 const dataButtons = [
     { label: "Trainings", href: "/trainings" },
     { label: "Experience", href: "/experience" },
-    { label: "Archive", href: "/archive" },
+    // { label: "Archive", href: "/archive" },
     { label: "Blog", href: "/blogs" },
 ];
 export function Nav() {
