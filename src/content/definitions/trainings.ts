@@ -3,9 +3,9 @@ import { compileMDX } from "@content-collections/mdx";
 import rehypeSlug from "rehype-slug";
 import remarkGfm from "remark-gfm";
 
-export const blogs = defineCollection({
-    name: "blogs",
-    directory: "./blogs",
+export const trainings = defineCollection({
+    name: "trainings",
+    directory: "./trainings",
     include: "**/*.mdx",
     schema: (z) => ({
         title: z.string(),
@@ -16,20 +16,21 @@ export const blogs = defineCollection({
         date: z.coerce.date(),
         published: z.boolean(),
         tags: z.array(z.string()),
+        serial: z.number(),
     }),
-    transform: async (blog, ctx) => {
-        const mdx = await compileMDX(ctx, blog, {
+    transform: async (training, ctx) => {
+        const mdx = await compileMDX(ctx, training, {
             rehypePlugins: [rehypeSlug],
             remarkPlugins: [remarkGfm],
         });
 
         return {
-            ...blog,
+            ...training,
             content: {
                 mdx,
-                raw: blog.content,
+                raw: training.content,
             },
-            url: `/blogs/${blog.slug}`,
+            url: `/trainings/${training.slug}`,
         };
     },
 });

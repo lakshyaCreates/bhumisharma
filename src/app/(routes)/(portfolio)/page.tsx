@@ -1,3 +1,3 @@
-export default function HomePage() {
-    return <div className="flex flex-col gap-y-4"></div>;
-}
+import TrainingsMain from "../trainings/main";
+
+export default TrainingsMain;
