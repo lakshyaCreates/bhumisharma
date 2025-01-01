@@ -28,7 +28,7 @@ export const ScheduleCalFloat = () => {
     return (
         <Button
             data-cal-namespace="meeting"
-            data-cal-link="lakshyasharma/30min"
+            data-cal-link="bhumisharma/30min"
             data-cal-config='{"layout":"month_view"}'
             className="group/cal fixed bottom-5 right-5 z-50 h-12 w-12 rounded-full p-2 transition-all duration-300 ease-out hover:w-auto hover:px-4"
         >
@@ -60,7 +60,7 @@ export const ScheduleCal = () => {
     return (
         <Button
             data-cal-namespace="meeting"
-            data-cal-link="lakshyasharma/30min"
+            data-cal-link="bhumisharma/30min"
             data-cal-config='{"layout":"month_view"}'
         >
             Schedule a call
