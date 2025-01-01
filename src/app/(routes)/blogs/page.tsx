@@ -1,7 +1,8 @@
+import { Hero } from "../(portfolio)/hero";
+
 import { Header } from "@/components/header";
 import { StaticNoise } from "@/components/static-noise";
 import { Separator } from "@/components/ui/separator";
-import { Hero } from "@/features/frontend/components/hero";
 
 import { AllBlogs } from "./all-blogs";
 
