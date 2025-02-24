@@ -1,6 +1,7 @@
 import { FaLinkedin, FaXTwitter, FaGithub, FaInstagram } from "react-icons/fa6";
 import { FaRss } from "react-icons/fa6";
 import { MdMailOutline } from "react-icons/md";
+import { PiReadCvLogo } from "react-icons/pi";
 
 import Link from "next/link";
 
@@ -69,7 +70,8 @@ export const Hero = () => {
                                     download={hero.resumePath}
                                     href={hero.resumePath}
                                 >
-                                    Resume
+                                    <PiReadCvLogo />
+                                    Career Profile
                                 </Link>
                             </Button>
                         </TooltipTrigger>
