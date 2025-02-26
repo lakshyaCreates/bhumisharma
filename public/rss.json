@@ -9,24 +9,5 @@
         "name": "Lakshya Sharma",
         "url": "https://lakshyasharma.dev"
     },
-    "items": [
-        {
-            "url": "https://lakshyasharma.dev/blogs/advanced-authjs-implementation-in-nextjs",
-            "title": "Advanced Auth.js Implementation in Next.js",
-            "summary": "This article explains how to use authjs with Next.js 15, using Prisma.",
-            "date_modified": "2024-12-26T00:00:00.000Z"
-        },
-        {
-            "url": "https://lakshyasharma.dev/blogs/how-to-setup-content-collections-in-nextjs",
-            "title": "How to setup Content Collections in Next.js",
-            "summary": "This article explains how to use authjs with Next.js 15, using Prisma.",
-            "date_modified": "2024-12-26T00:00:00.000Z"
-        },
-        {
-            "url": "https://lakshyasharma.dev/blogs/introduction-to-on-demand-data-revalidation-in-nextjs-15",
-            "title": "Introduction to On-Demand Data Revalidation in Next.js 15",
-            "summary": "This article explains how to use authjs with Next.js 15, using Prisma.",
-            "date_modified": "2024-12-26T00:00:00.000Z"
-        }
-    ]
+    "items": []
 }
